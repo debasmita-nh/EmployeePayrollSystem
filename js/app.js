@@ -10,11 +10,19 @@
   const DEPARTMENTS = ['Engineering', 'Human Resources', 'Finance', 'Marketing', 'Sales', 'Operations'];
 
   const SAMPLE = [
-    { id: 'EMP001', name: 'Ananya Sharma',  email: 'ananya.sharma@bluewave.in',  department: 'Engineering',     position: 'Senior Software Engineer', basic: 62000, hra: 22000, allow: 8500, pf: 4650, tax: 5200, ded: 800,  joinDate: '2022-04-18' },
-    { id: 'EMP002', name: 'Rohan Mehta',    email: 'rohan.mehta@bluewave.in',    department: 'Finance',         position: 'Accounts Manager',         basic: 55000, hra: 18000, allow: 6000, pf: 4125, tax: 4800, ded: 500,  joinDate: '2021-01-11' },
-    { id: 'EMP003', name: 'Priya Devi',     email: 'priya.devi@bluewave.in',     department: 'Human Resources', position: 'HR Executive',             basic: 42000, hra: 14000, allow: 5000, pf: 3150, tax: 2400, ded: 300,  joinDate: '2023-07-03' },
-    { id: 'EMP004', name: 'Karan Singh',    email: 'karan.singh@bluewave.in',    department: 'Sales',           position: 'Sales Head',               basic: 68000, hra: 23000, allow: 12000, pf: 5100, tax: 6900, ded: 1000, joinDate: '2020-09-21' },
-    { id: 'EMP005', name: 'Meena Bishnoi',  email: 'meena.bishnoi@bluewave.in',  department: 'Marketing',       position: 'Marketing Executive',      basic: 45000, hra: 15000, allow: 6500, pf: 3375, tax: 3000, ded: 400,  joinDate: '2024-02-15' }
+    { id: 'EMP001', name: 'Linthoi Chanu Laishram', email: 'linthoi.l@bluewave.in',    department: 'Engineering',     position: 'Chief Technology Officer',     basic: 125000, hra: 45000, allow: 18000, pf: 9375,  tax: 22500, ded: 1200, joinDate: '2019-03-04' },
+    { id: 'EMP002', name: 'Mutum Bijoy Singh',      email: 'bijoy.mutum@bluewave.in',  department: 'Operations',      position: 'Operations Manager',           basic: 72000,  hra: 26000, allow: 11000, pf: 5400,  tax: 7800,  ded: 900,  joinDate: '2020-01-15' },
+    { id: 'EMP003', name: 'Ananya Sharma',          email: 'ananya.sharma@bluewave.in', department: 'Engineering',     position: 'Senior Software Engineer',     basic: 62000,  hra: 22000, allow: 8500,  pf: 4650,  tax: 5200,  ded: 800,  joinDate: '2022-04-18' },
+    { id: 'EMP004', name: 'Rohan Mehta',            email: 'rohan.mehta@bluewave.in',  department: 'Finance',         position: 'Accounts Manager',             basic: 55000,  hra: 18000, allow: 6000,  pf: 4125,  tax: 4800,  ded: 500,  joinDate: '2021-01-11' },
+    { id: 'EMP005', name: 'Priya Devi Nameirakpam', email: 'priya.n@bluewave.in',      department: 'Human Resources', position: 'HR Head',                      basic: 68000,  hra: 24000, allow: 7500,  pf: 5100,  tax: 6500,  ded: 700,  joinDate: '2020-07-20' },
+    { id: 'EMP006', name: 'Karan Singh',            email: 'karan.singh@bluewave.in',  department: 'Sales',           position: 'Sales Head',                   basic: 68000,  hra: 23000, allow: 12000, pf: 5100,  tax: 6900,  ded: 1000, joinDate: '2020-09-21' },
+    { id: 'EMP007', name: 'Meena Bishnoi',          email: 'meena.bishnoi@bluewave.in', department: 'Marketing',       position: 'Marketing Executive',          basic: 45000,  hra: 15000, allow: 6500,  pf: 3375,  tax: 3000,  ded: 400,  joinDate: '2024-02-15' },
+    { id: 'EMP008', name: 'Thangjam Sanajaoba',     email: 's.thangjam@bluewave.in',   department: 'Engineering',     position: 'Frontend Developer',           basic: 48000,  hra: 16000, allow: 5500,  pf: 3600,  tax: 2700,  ded: 400,  joinDate: '2023-06-01' },
+    { id: 'EMP009', name: 'Sorokhaibam Nirmala',    email: 'n.sorokhai@bluewave.in',   department: 'Finance',         position: 'Junior Accountant',            basic: 32000,  hra: 11000, allow: 3500,  pf: 2400,  tax: 900,   ded: 250,  joinDate: '2024-08-12' },
+    { id: 'EMP010', name: 'Athokpam Johnson',       email: 'j.athokpam@bluewave.in',   department: 'Engineering',     position: 'Backend Developer',            basic: 52000,  hra: 18000, allow: 6000,  pf: 3900,  tax: 3500,  ded: 500,  joinDate: '2022-11-09' },
+    { id: 'EMP011', name: 'Deepti Talukdar',        email: 'deepti.t@bluewave.in',     department: 'Marketing',       position: 'Digital Marketing Lead',       basic: 58000,  hra: 20000, allow: 8000,  pf: 4350,  tax: 4500,  ded: 600,  joinDate: '2021-12-28' },
+    { id: 'EMP012', name: 'Yumlembam Roshan',       email: 'roshan.y@bluewave.in',     department: 'Sales',           position: 'Area Sales Executive',         basic: 38000,  hra: 13000, allow: 9500,  pf: 2850,  tax: 1800,  ded: 800,  joinDate: '2023-03-22' },
+    { id: 'EMP013', name: 'Salam Ongbi Devi',       email: 's.devi@bluewave.in',       department: 'Operations',      position: 'Office Administrator',         basic: 28000,  hra: 10000, allow: 3000,  pf: 2100,  tax: 500,   ded: 200,  joinDate: '2024-01-02' }
   ];
 
   const state = {
